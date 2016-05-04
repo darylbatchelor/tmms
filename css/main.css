@@ -54,6 +54,12 @@ img.logo{
      font-size: 1em;
 }
 
+@media screen and (max-width: 550px) {
+    .countdown-period {
+        font-size: 0.6em;
+    }
+}
+
 .main-content-area {
     text-align: center;
 }

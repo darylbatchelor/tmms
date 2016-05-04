@@ -19,8 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `tmms`
 --
-CREATE DATABASE IF NOT EXISTS `tmms` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
-USE `tmms`;
+CREATE DATABASE IF NOT EXISTS `batchebr_tmms` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+USE `batchebr_tmms`;
 
 -- --------------------------------------------------------
 
