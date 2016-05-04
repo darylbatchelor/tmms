@@ -1,0 +1,109 @@
+*{
+   box-sizing:border-box;
+}
+body{
+    margin-bottom:0;
+}
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+/*-- navbar styles --*/
+.color-scheme{
+
+	/* for male background-color:#304ffe;*/
+background-image: linear-gradient(to top,#fff, #fff 100%);
+	/*background-image: linear-gradient(to top,#ff4081 0,#ff4081 100%);*/
+}
+
+img.logo{
+    margin: 0 auto 40px auto;
+    display: block;
+    height:200px;
+    
+}
+
+.jumbowrapper h1{
+    text-align: center;
+}
+
+#countdown{
+    height: 230px;
+    margin-bottom: 100px;
+    background-color: #1FA2ED;
+}
+
+.countdown-row{
+
+}
+
+.countdown-section{
+    padding: 60px 0;
+    font-size: 2em;
+
+
+}
+
+.countdown-amount{
+    color:#f4f4f4;
+}
+
+.countdown-period{
+    color: #f4f4f4;
+     font-size: 1em;
+}
+
+.main-content-area {
+    text-align: center;
+}
+
+.main-content-area form{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-content-area form button{
+    background-image: linear-gradient(to bottom,#1FA2ED 0,#1FA2ED 100%);
+    border-color: #1FA2ED;
+      border-radius:0;
+      margin-left:-6px;
+}
+
+.form-control{
+    border-radius:0;
+}
+
+.main-content-area form button.btn:hover{
+    background-image: linear-gradient(to bottom,#1FA2ED 0,#1FA2ED 100%);
+    border-color: #1FA2ED;
+    border-radius:0;
+    background-color: #1FA2ED;
+}
+
+.successmsg{
+    color: green;
+}
+
+.emailErr{
+    color:red;
+}
+
+
+/* footer --*/
+ footer{
+   height: 50px;
+   line-height: 50px;
+ 	text-align: center;
+    background-color: #1FA2ED;
+    color: #f4f4f4;
+ }
+
+ footer p{
+    margin:0;
+ }
+
+
+
+
+
